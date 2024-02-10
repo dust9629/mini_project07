@@ -21,10 +21,10 @@ body {
     left: 50%;
     z-index: -1;
 }
-.eye-wrapper {
+.eyes-wrapper {
     display: flex;
 }
-.eye-wrapper::before{
+.eyes-wrapper::before {
     content: "";
     position: absolute;
     width: 26em;
@@ -39,6 +39,7 @@ body {
     border: 15px solid #a6a4ad;
     background-color: #fff;
     border-radius: 50%;
+    z-index: 1;
 }
 .eyeball {
     height: 3.2em;
